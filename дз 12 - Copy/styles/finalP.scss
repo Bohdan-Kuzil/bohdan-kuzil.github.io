@@ -1,0 +1,967 @@
+@import'reset';
+@import 'fonts';
+
+.wraper {
+    width : 1440px;
+    margin: auto;
+
+    .header {
+        background-image : url(/img/Background.png);
+        background-size  : cover;
+        background-repeat: no-repeat;
+        max-width        : 100%;
+        height           : 700px;
+
+        .navbar {
+            width          : 901px;
+            height         : 24px;
+            padding        : 46px 248px 0px 248px;
+            font-family    : "Montesor";
+            color          : #fff;
+            display        : flex;
+            flex-direction : row;
+            justify-content: space-between;
+
+            .dream-nav {
+                font-weight   : 700;
+                font-size     : 24px;
+                text-transform: uppercase;
+            }
+
+            .log-nav {
+                margin-left: 500px;
+                font-weight: 400;
+            }
+
+            .sign-nav {
+                display      : block;
+                width        : 90px;
+                height       : 36px;
+                border       : 2px solid #fff;
+                border-radius: 40px;
+                line-height  : 36px;
+                text-align   : center;
+                margin-top   : -9px;
+                font-weight  : 400;
+
+            }
+        }
+
+        .title {
+            font-family: "Montesor";
+            font-size  : 52px;
+            color      : #fff;
+            margin-top : 162px;
+            text-align : center;
+            font-weight: 700;
+
+            .title-element {
+                font-size  : 24px;
+                font-weight: 300;
+                font-family: "roboto300";
+                margin-top : 38px;
+            }
+
+            .title-element-red {
+                width           : 225px;
+                height          : 40px;
+                line-height     : 40px;
+                text-align      : center;
+                font-size       : 14px;
+                background-color: #FF4E50;
+                border-radius   : 40px;
+                margin          : 37px auto;
+            }
+        }
+
+    }
+
+    .main {
+        width : 941px;
+        margin: auto;
+
+        .title-main {
+            font-family   : "Montesor";
+            font-size     : 24px;
+            font-weight   : 700;
+            text-align    : center;
+            margin-top    : 91px;
+            letter-spacing: 1.5px
+        }
+
+        .main-block {
+            width          : 100%;
+            height         : 400px;
+            display        : flex;
+            justify-content: space-between;
+            margin-top     : 40px;
+
+            .block-element1 {
+                width            : 31.5%;
+                height           : 100%;
+                background-image : url(/img/Step1.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                flex-direction   : column;
+                justify-content  : flex-end;
+                padding-left     : 25px;
+
+                .element1-item1 {
+                    width           : 70px;
+                    height          : 20px;
+                    background-color: #FF4E50;
+                    border-radius   : 40px;
+                    display         : block;
+                    text-align      : center;
+                    line-height     : 20px;
+                    font-family     : "Montesor";
+                    color           : #fff;
+                    font-size       : 10px;
+                    font-weight     : 400;
+                    margin-bottom   : 21px;
+                }
+
+                .element1-item2 {
+                    width        : 100%;
+                    height       : 58px;
+                    color        : #fff;
+                    font-family  : "Montesor";
+                    font-size    : 24px;
+                    font-weight  : 700;
+                    margin-bottom: 16px;
+
+                }
+
+                .element1-item3 {
+                    width        : 100%;
+                    height       : 57px;
+                    color        : #fff;
+                    font-family  : "roboto300";
+                    font-weight  : 300;
+                    font-size    : 14px;
+                    margin-bottom: 8px;
+                }
+            }
+
+            .block-element2 {
+                width            : 31.5%;
+                height           : 100%;
+                background-image : url(/img/Step2.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                flex-direction   : column;
+                justify-content  : flex-end;
+                padding-left     : 25px;
+                margin           : 0 10px 0 10px;
+
+                .element2-item1 {
+                    width           : 70px;
+                    height          : 20px;
+                    background-color: #FF4E50;
+                    border-radius   : 40px;
+                    display         : block;
+                    text-align      : center;
+                    line-height     : 20px;
+                    font-family     : "Montesor";
+                    color           : #fff;
+                    font-size       : 10px;
+                    font-weight     : 400;
+                    margin-bottom   : 21px;
+                }
+
+                .element2-item2 {
+                    width        : 100%;
+                    height       : 29px;
+                    color        : #fff;
+                    font-family  : "Montesor";
+                    font-size    : 24px;
+                    font-weight  : 700;
+                    margin-bottom: 16px;
+
+                }
+
+                .element2-item3 {
+                    width        : 100%;
+                    height       : 57px;
+                    color        : #fff;
+                    font-family  : "roboto300";
+                    font-weight  : 300;
+                    font-size    : 14px;
+                    margin-bottom: 8px;
+                }
+            }
+
+            .block-element3 {
+                width            : 31.5%;
+                height           : 100%;
+                background-image : url(/img/Step3.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                flex-direction   : column;
+                justify-content  : flex-end;
+                padding-left     : 25px;
+                margin-left      : 10px;
+
+                .element3-item1 {
+                    width           : 70px;
+                    height          : 20px;
+                    background-color: #FF4E50;
+                    border-radius   : 40px;
+                    display         : block;
+                    text-align      : center;
+                    line-height     : 20px;
+                    font-family     : "Montesor";
+                    color           : #fff;
+                    font-size       : 10px;
+                    font-weight     : 400;
+                    margin-bottom   : 21px;
+                }
+
+                .element3-item2 {
+                    width        : 100%;
+                    height       : 58px;
+                    color        : #fff;
+                    font-family  : "Montesor";
+                    font-size    : 24px;
+                    font-weight  : 700;
+                    margin-bottom: 16px;
+
+                }
+
+                .element3-item3 {
+                    width        : 100%;
+                    height       : 57px;
+                    color        : #fff;
+                    font-family  : "roboto300";
+                    font-weight  : 300;
+                    font-size    : 14px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        .title-main-avatar {
+            font-family   : "Montesor";
+            font-size     : 24px;
+            font-weight   : 700;
+            text-align    : center;
+            margin-top    : 91px;
+            letter-spacing: 1.5px
+        }
+
+        .main-avatar {
+            width          : 100%;
+            height         : 205px;
+            display        : flex;
+            justify-content: space-between;
+            text-align     : center;
+            margin-top     : 39px;
+
+            .avatar-element1 {
+                width          : 50%;
+                height         : 100%;
+                justify-content: center;
+
+                .avatar {
+                    width : 120px;
+                    height: 120px;
+                }
+
+                .avatar-name {
+                    display    : block;
+                    font-family: "Montesor";
+                    font-size  : 14px;
+                    font-weight: 700;
+                    margin-top : 21px;
+                }
+
+                .avatar-element-text {
+                    width      : 100%;
+                    display    : block;
+                    font-family: "roboto300";
+                    font-size  : 14px;
+                    color      : #666666;
+                    margin-top : 23px;
+                }
+            }
+
+            .avatar-element2 {
+                width          : 50%;
+                height         : 100%;
+                justify-content: center;
+
+                .avatar {
+                    width : 120px;
+                    height: 120px;
+                }
+
+                .avatar-name {
+                    display    : block;
+                    font-family: "Montesor";
+                    font-size  : 14px;
+                    font-weight: 700;
+                    margin-top : 21px;
+                }
+
+                .avatar-element-text {
+                    width      : 100%;
+                    display    : block;
+                    font-family: "roboto300";
+                    font-size  : 14px;
+                    color      : #666666;
+                    margin-top : 23px;
+                }
+            }
+
+            .avatar-element3 {
+                width          : 50%;
+                height         : 100%;
+                justify-content: center;
+
+                .avatar {
+                    width : 120px;
+                    height: 120px;
+                }
+
+                .avatar-name {
+                    display    : block;
+                    font-family: "Montesor";
+                    font-size  : 14px;
+                    font-weight: 700;
+                    margin-top : 21px;
+                }
+
+                .avatar-element-text {
+                    width      : 100%;
+                    display    : block;
+                    font-family: "roboto300";
+                    font-size  : 14px;
+                    color      : #666666;
+                    margin-top : 23px;
+                }
+            }
+
+            .avatar-element4 {
+                width          : 50%;
+                height         : 100%;
+                justify-content: center;
+
+                .avatar {
+                    width : 120px;
+                    height: 120px;
+                }
+
+                .avatar-name {
+                    display    : block;
+                    font-family: "Montesor";
+                    font-size  : 14px;
+                    font-weight: 700;
+                    margin-top : 21px;
+                }
+
+                .avatar-element-text {
+                    width      : 100%;
+                    display    : block;
+                    font-family: "roboto300";
+                    font-size  : 14px;
+                    color      : #666666;
+                    margin-top : 23px;
+                }
+            }
+
+        }
+
+        .main-button {
+            width        : 180px;
+            height       : 40px;
+            line-height  : 40px;
+            border       : 2px solid #FF4E50;
+            border-radius: 40px;
+            margin       : 54px auto;
+            text-align   : center;
+            font-family  : "Montesor";
+            font-size    : 14px;
+            font-weight  : 700;
+            color        : #FF4E50;
+
+        }
+
+        .main-adventure {
+            width          : 940px;
+            height         : 1031px;
+            display        : flex;
+            justify-content: space-between;
+            flex-wrap      : wrap;
+            margin-top     : 39px;
+
+            .adventure-element1 {
+                width            : 300px;
+                height           : 310px;
+                background-image : url(/img/Sport.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+
+            .adventure-element2 {
+                width            : 300px;
+                height           : 310px;
+                background-image : url(/img/Healath.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+
+            .adventure-element3 {
+                width            : 300px;
+                height           : 310px;
+                background-image : url(/img/Extreme.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+
+            .adventure-element4 {
+                width            : 300px;
+                height           : 310px;
+                background-image : url(/img/Games.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+                margin-top       : -29px;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+
+            .adventure-element5 {
+                width            : 620px;
+                height           : 310px;
+                background-image : url(/img/Culture.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+                margin-top       : -29px;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+
+            .adventure-element6 {
+                width            : 620px;
+                height           : 310px;
+                background-image : url(/img/relax.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+                margin-top       : -26px;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+
+            .adventure-element7 {
+                width            : 300px;
+                height           : 310px;
+                background-image : url(/img/selfie.png);
+                background-size  : cover;
+                background-repeat: no-repeat;
+                display          : flex;
+                align-items      : center;
+                margin-top       : -26px;
+
+                .adventure-text {
+                    display    : inline-block;
+                    width      : 100%;
+                    font-family: "Montesor";
+                    font-size  : 22px;
+                    text-align : center;
+                    font-weight: 700;
+                    color      : #fff;
+                }
+            }
+        }
+
+        .holiday {
+            margin-top: 31px;
+        }
+
+        .main-search {
+            width          : 482px;
+            height         : 89px;
+            margin         : auto;
+            display        : flex;
+            flex-wrap      : wrap;
+            justify-content: space-around;
+            margin-top     : 62px;
+
+            .search-element1 {
+                width      : 482px;
+                height     : 24px;
+                font-family: "roboto300";
+                font-size  : 18px;
+                color      : #666666;
+                text-align : center;
+
+            }
+
+            .search-element2 {
+                width        : 285px;
+                height       : 40px;
+                border       : 1px solid #666666;
+                font-family  : "roboto300";
+                font-size    : 14px;
+                color        : #666666;
+                box-shadow   : 0px 1px 2px rgba(0, 0, 0, 0.073313);
+                border-radius: 3px;
+                line-height  : 40px;
+                padding-left : 9px;
+            }
+
+            .search-element3 {
+                width           : 172px;
+                height          : 40px;
+                background-color: #FF4E50;
+                color           : #fff;
+                border-radius   : 40px;
+                font-family     : "Montesor";
+                font-size       : 14px;
+                line-height     : 40px;
+                text-align      : center;
+            }
+        }
+    }
+
+    .footer {
+        width     : 100%;
+        height    : 224px;
+        border-top: 2px solid #FF4E50;
+        margin-top: 85px;
+        display   : flex;
+
+        .footer-element1 {
+            width          : 25%;
+            font-family    : "Montesor";
+            font-weight    : 400;
+            color          : #FF4E50;
+            display        : flex;
+            justify-content: flex-end;
+            margin-top     : 40px;
+        }
+
+        .footer-element2 {
+            width         : 25%;
+            font-family   : "roboto300";
+            font-size     : 14px;
+            color         : #999999;
+            display       : flex;
+            flex-direction: column;
+            box-sizing    : border-box;
+            padding-left  : 128px;
+            padding-top   : 39px;
+            line-height   : 26px;
+        }
+
+        .title-element {
+            font-family: "Montesor";
+            font-size  : 14px;
+            font-weight: 700;
+            color      : #444444;
+        }
+
+        .footer-element3 {
+            width      : 25%;
+            box-sizing : border-box;
+            padding-top: 40px;
+        }
+
+        .footer-element4 {
+            width      : 25%;
+            padding-top: 40px;
+
+            .title-element2 {
+                font-family   : "Montesor";
+                font-weight   : 700;
+                font-size     : 10px;
+                color         : #CCCCCC;
+                margin-bottom : 10px;
+                padding-left  : 29px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 968px) {
+    .wraper {
+        width: 768px;
+
+        .header {
+            background-position: center;
+
+            .navbar {
+                width  : 670px;
+                padding: 46px 48px 0px 56px;
+
+                .log-nav {
+                    margin-left: 100px;
+
+                }
+            }
+        }
+
+        .main {
+            width: 768px;
+
+            .main-avatar {
+                width    : 492px;
+                height   : 605px;
+                flex-wrap: wrap;
+                margin   : 87px auto -91px auto;
+
+                .avatar-element1 {
+                    height: 50%;
+                }
+
+                .avatar-element2 {
+                    height: 50%;
+                }
+
+                .avatar-element3 {
+                    height: 50%;
+                }
+
+                .avatar-element4 {
+                    height: 50%;
+                }
+            }
+
+            .main-adventure {
+                width : 748px;
+                height: 970px;
+
+                .adventure-element1 {
+                    width: 236px;
+                }
+
+                .adventure-element2 {
+                    width: 236px;
+                }
+
+                .adventure-element3 {
+                    width: 236px;
+                }
+
+                .adventure-element4 {
+                    width: 236px;
+                }
+
+                .adventure-element5 {
+                    width: 492px;
+                }
+
+                .adventure-element6 {
+                    width: 492px;
+                }
+
+                .adventure-element7 {
+                    width: 236px;
+                }
+            }
+        }
+
+        .footer {
+            .footer-element2 {
+                padding-left: 57px;
+                padding-top : 35px;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .wraper {
+        width: 320px;
+
+        .header {
+            background-position: center;
+            height             : 540px;
+
+            .navbar {
+                width          : 100%;
+                padding        : 0px 0px 0px 0px;
+                flex-wrap      : wrap;
+                justify-content: center;
+
+                .log-nav {
+                    margin-left: 0px;
+                    margin-top : 32px;
+                }
+
+                .sign-nav {
+                    margin-left: 30px;
+                    margin-top : 20px;
+                }
+
+                .dream-nav {
+                    order     : 2;
+                    width     : 100%;
+                    text-align: center;
+                    margin-top: 75px;
+                }
+            }
+
+            .title {
+                font-size: 30px;
+            }
+
+        }
+
+        .main {
+            width: 320px;
+
+            .title-main {
+                font-size: 22px;
+            }
+
+            .main-block {
+                width         : 300px;
+                height        : 781px;
+                flex-direction: column;
+                margin        : auto;
+
+                .block-element1 {
+                    width              : 92%;
+                    height             : 32%;
+                    background-position: center;
+                }
+
+                .block-element2 {
+                    width              : 92%;
+                    height             : 32%;
+                    background-position: center;
+                    margin-left        : 0px;
+                }
+
+                .block-element3 {
+                    width              : 92%;
+                    height             : 32%;
+                    background-position: center;
+                    margin-left        : 0px;
+                }
+            }
+
+            .main-avatar {
+                width         : 236px;
+                height        : 890px;
+                flex-wrap     : nowrap;
+                flex-direction: column;
+                align-items   : center;
+
+                .avatar-element1 {
+                    width : 100%;
+                    height: 25%;
+                }
+
+                .avatar-element2 {
+                    width : 100%;
+                    height: 25%;
+                }
+
+                .avatar-element3 {
+                    width : 100%;
+                    height: 25%;
+                }
+
+                .avatar-element4 {
+                    width : 100%;
+                    height: 25%;
+                }
+            }
+
+            .main-button {
+                width     : 280px;
+                margin-top: 100px;
+            }
+
+            .main-adventure {
+                width : 300px;
+                height: 900px;
+                margin: auto;
+
+                .adventure-element1 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+
+                }
+
+                .adventure-element2 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+                }
+
+                .adventure-element3 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+                }
+
+                .adventure-element4 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+                }
+
+                .adventure-element5 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+                }
+
+                .adventure-element6 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+                }
+
+                .adventure-element7 {
+                    width              : 100%;
+                    height             : 13%;
+                    background-position: center;
+                    margin-top         : 10px;
+                }
+            }
+
+            .main-search {
+                width : 320px;
+                height: 200px;
+
+                .search-element1 {
+                    width: 320px;
+                }
+
+                .search-element2 {
+                    width: 100%;
+                }
+
+                .search-element3 {
+                    width: 100%;
+                }
+            }
+        }
+
+
+        .footer {
+            flex-direction: column;
+
+            .footer-element1 {
+                width          : 100%;
+                justify-content: center;
+            }
+
+            .footer-element2 {
+                width          : 100%;
+                display        : flex;
+                flex-direction : initial;
+                text-align     : center;
+                flex-wrap      : wrap;
+                padding        : 0px 0px 0px 0px;
+                width          : 100%;
+                justify-content: center;
+
+                .title-element {
+                    width: 100%;
+                }
+
+                .style-element2 {
+                    margin-left: 10px;
+                }
+            }
+
+            .footer-element3 {
+                width     : 100%;
+                text-align: center;
+            }
+
+            .footer-element4 {
+                width         : 100%;
+                text-align    : center;
+                padding-bottom: 10px;
+            }
+
+        }
+
+    }
+
+}
